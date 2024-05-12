@@ -3,10 +3,6 @@ import json
 from st_login_form import login_form
 from supabase import create_client, Client
 
-# Carregue as variáveis de ambiente do arquivo .env
-from dotenv import load_dotenv
-load_dotenv()
-
 # Configurações do Supabase para login/cadastro
 USER_PROJECT_URL = st.secrets["USER_PROJECT_URL"]
 USER_PROJECT_KEY = st.secrets["USER_PROJECT_KEY"]
