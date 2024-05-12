@@ -3,5 +3,3 @@ streamlit-aggrid
 st-login-form
 st-supabase-connection
 supabase
-python-dotenv
-os
